@@ -1,0 +1,22 @@
+table{
+    width: 100%;
+}
+table, th, td{
+    border: 1px solid #ccc5b9;
+    color: #eb5e28;
+    border-collapse: collapse;
+    /*border-spacing: 2px;*/
+    padding: 7px;
+}
+th{
+    color: #fffcf2;
+    background-color: black;
+}
+/*renglones pares (el primer renglon esta ocupado por la cabecera)*/
+tr:nth-child(even){
+    background-color: #252422;
+}
+/*renglones impares*/
+tr:nth-child(odd){
+    background-color: #252422;
+}

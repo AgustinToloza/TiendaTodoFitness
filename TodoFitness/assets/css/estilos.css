@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+h1 {
+    color: black;
+    font-size: 100px;
+    font-family: 'Lato', sans-serif;
+    background-color: #eb5e28;
+    text-align: center;
+    padding: 30px;
+    border: 20px solid #ccc5b9;
+    margin: 30px;
+    outline: 15px solid #eb5e28;
+    outline-offset: 10px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+h2{
+    color: #ccc5b9;
+}
+h3 {
+    color: #fffcf2;
+}
+pre {
+    color: white;
+}
+p {
+    color: #eb5e28;
+}
+body {
+    background-color: #403d39;
+}
+a:link, a:visited {
+    color: #fffcf2;
+    padding: 3px 7px;
+    text-align: center;
+    text-decoration: none;
+}
+/* cuando nos ponemos encima del link*/
+a:hover, a:active{
+     background-color: #ccc5b9;
+     color: #252422;
+}
+
+.tarjeta{ /*div*/
+    border: 1px solid #ccc5b9;
+    background-color: #292724;
+    text-align: center;
+    margin: 15px 100px;
+    padding: 15px;
+}
+/*identificador css (id)*/
+#tarjeta_premium{
+    background-color: gold;
+}
+.marco{
+    width: 100%;
+    height: 200%;
+    border: 1px solid #eb5e28;
+}
+.centrar{
+    text-align: center;
+}
+form label{
+    color: aqua;
+}
+form fieldset legend{
+    color: #eb5e28;
+}
+html{
+    height: 100%;
+}
+.bodylogin{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#7209b7, #3f37c0);
+}
+.contenedor{
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px;
+    background: rgba(0,0,0, .5);
+    border-radius: 10px;
+}
+.contenedor h2{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    color: #4cc9f0;
+    text-align: center;
+}
+.contenedor .elemento label{
+    color: #fff;
+}
+.contenedor .elemento input{
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 30px;
+}
+.contenedor .elemento input[type="submit"]{
+    background-color: #f72585;
+    border: none;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+li a{
+    float: left;
+}
+li a:link, li a:visited{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    background-color: #403d39;
+}
+li a:hover, a:active{
+    background-color: #403d39;
+    color: white;
+}
+
+ul{
+    background-color: #403d39;
+    color: #eb5e28;
+}
+ol{
+    background-color: #403d39;
+    color: #eb5e28;
+    list-style: none;
+    counter-reset: contador;
+}
+ol li{
+    counter-increment: contador;
+}
+ol li::before{
+    content: 'Ejercicio ' counter(contador) ') ';
+    color: aqua;
+}
+ol li::after{
+    content: '.';
+}
+dl{
+    background-color: #403d39;
+    color: #eb5e28;
+}
+dt{
+    color: aqua;
+}
+dt::after{
+    content: ':';
+}
+
+.imagen{
+    width: 400px;
+    height: 360px;
+
+    /*aspect-ratio: 1/1;
+    object-fit: cover;*/
+}
